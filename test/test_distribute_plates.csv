@@ -1,0 +1,10 @@
+Reagent,Name,Slot,WellID,LabwareType,volume
+source,Horse1,1,A1,96-PCR-flat,
+source,Horse2,1,A2,96-PCR-flat,
+source,Horse3,1,A3,96-PCR-flat,
+target,Horse3,4,A3,96-PCR-flat,
+target,Horse2,3,A2,96-PCR-flat,
+target,Horse1,2,A1,96-PCR-flat,
+target,Horse3,4,B3,96-PCR-flat,
+target,Horse2,3,B2,96-PCR-flat,
+target,Horse1,2,B1,96-PCR-flat,

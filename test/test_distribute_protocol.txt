@@ -1,0 +1,7 @@
+---
+pipette: P10_single:right
+tiprack: 
+- slot: 8
+  type: tiprack-10ul
+---
+3 * Source = Target

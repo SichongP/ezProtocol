@@ -1,0 +1,14 @@
+---
+pipette: P10_single:left, P300_single:right
+tiprack: 
+- slot: 8
+  type: tiprack-10ul
+- slot: 7
+  type: opentrons-tiprack-300ul
+---
+2.5*(HorseDNA)*Buffer|pause_after_aspirate:1 + 0.5*(HorseDNA)*dNTP + 0.5*(HorseDNA)*HorseF + 0.5*(HorseDNA)*HorseR + 0.1*(HorseDNA)*Taq|pause:1 + 20*(HorseDNA)*Water|mix_after_dispense:3 = HorseMasterMix
+2.5*(CatDNA)*Buffer|pause_after_aspirate:1 + 0.5*(CatDNA)*dNTP + 0.5*(CatDNA)*CatF + 0.5*(CatDNA)*CatR + 0.1*(CatDNA)*Taq|pause:1 + 20*(CatDNA)*Water|mix_after_dispense:3 = CatMasterMix
+2.5*(DogDNA)*Buffer|pause_after_aspirate:1 + 0.5*(DogDNA)*dNTP + 0.5*(DogDNA)*DogF + 0.5*(DogDNA)*DogR + 0.1*(DogDNA)*Taq|pause:1 + 20*(DogDNA)*Water|mix_after_dispense:3 = DogMasterMix
+1*HorseDNA + 24*HorseMasterMix|mix_before_aspirate:3,mix_before_rate:50,mix_after_dispense:3,mix_after_rate:2 = HorseProduct
+1*DogDNA + 24*DogMasterMix|mix_before_aspirate:3,mix_before_rate:50,mix_after_dispense:3,mix_after_rate:2 = DogProduct
+1*CatDNA + 24*CatMasterMix|mix_before_aspirate:3,mix_before_rate:50,mix_after_dispense:3,mix_after_rate:2 = CatProduct

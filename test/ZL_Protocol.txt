@@ -1,0 +1,10 @@
+---
+pipette: P10_single:left, P300_single:right
+tiprack:
+- slot: 4
+  type: tiprack-10ul
+- slot: 5
+  type: opentrons-tiprack-300ul
+---
+132 * (Mix) * Primer + 52.8 * (Mix) * Enzyme | pause_after_aspirate:1, pause_after_dispense:1, mix_after_dispense:10, mix_after_rate:2, mix_volume:25 = MixSrc
+184.8 * MixSrc = Mix

@@ -1,0 +1,12 @@
+Reagent,Name,Slot,WellID,LabwareType,volume
+Primer,PrimerMix1,1,A1,3x4_1.5mL_Rack,
+Enzyme,AmpEnzyme,1,A2,3x4_1.5mL_Rack,
+MixSrc,AmpMixSrc1,1,D3,3x4_1.5mL_Rack,
+Mix,Ampmix1,2,A1,96-well-plate-20mm,
+Mix,Ampmix2,2,B1,96-well-plate-20mm,
+Mix,Ampmix3,2,C1,96-well-plate-20mm,
+Mix,Ampmix4,2,D1,96-well-plate-20mm,
+Mix,Ampmix5,2,E1,96-well-plate-20mm,
+Mix,Ampmix6,2,F1,96-well-plate-20mm,
+Mix,Ampmix7,2,G1,96-well-plate-20mm,
+Mix,Ampmix8,2,H1,96-well-plate-20mm,
