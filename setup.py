@@ -16,7 +16,7 @@ setuptools.setup(
     entry_points={'console_scripts': ['ezprotocol = ezProtocol.__main__:main']},
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU GPL3",
         "Operating System :: OS Independent",
     ],
     install_requires=['python-frontmatter','pandas','PyYAML','regex','opentrons>3']
