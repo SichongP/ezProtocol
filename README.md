@@ -17,15 +17,12 @@ ezProtocol relies on below packages:
 ## Installation (pip deploy pending)
 Clone this repo:
 ```
-git clone https://github.com/ucdavis/VGL_OT-2
+git clone https://github.com/SichongP/ezProtocol
 ```
-Switch to protocolWrite branch:
+
+Change directory:
 ```
-git checkout protocolWriter
-```
-Change to dev directory:
-```
-cd dev/protocolWriter/
+cd ezProtocol
 ```
 Install package:
 ```
