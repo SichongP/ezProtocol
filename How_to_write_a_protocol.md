@@ -121,4 +121,4 @@ Detail instructions are always provided after a pipe (`|`) following reagent nam
 - pause_after_aspirate:0 (seconds to pause)
 - pause_after_dispense:0 (seconds to pause)
 
-There you have it! That's all you need to know to write a complex, versatile protocol. Check out [sample protocol](https://github.com/ucdavis/VGL_OT-2/blob/protocolWriter/dev/protocolWriter/testProtocol.txt) and [sample plate input file](https://github.com/ucdavis/VGL_OT-2/blob/protocolWriter/dev/protocolWriter/TestInputPlate.csv) for some examples!
+There you have it! That's all you need to know to write a complex, versatile protocol. Check out [sample protocol](https://github.com/SichongP/ezProtocol/blob/master/test/testProtocol.txt) and [sample plate input file](https://github.com/SichongP/ezProtocol/blob/master/test/TestInputPlate.csv) for some examples!
