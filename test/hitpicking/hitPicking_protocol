@@ -1,0 +1,9 @@
+---
+pipette: P10_single:left, P300_single:right
+tiprack: 
+- slot: 8
+  type: tiprack-10ul
+- slot: 7
+  type: opentrons-tiprack-300ul
+---
+3*source = target
